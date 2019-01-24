@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index of {{ root }}</title>
+</head>
+<body>
+    <h1>Index of {{ root }}</h1>
+    <hr>
+    <pre>
+        <a href="../">../</a>{% for k, v in ls.items() if k not in ['time', 'size', 'cid'] %}
+        <a href="{{ k }}{%if 'size' not in v %}/{% endif %}">{{ k }}{%if 'size' not in v %}/{% endif %}</a>{{ '\t'*6 }}{{v['time']}}{{ '\t'*6 }}{{v.get('size', '-')}}{% endfor %}
+    </pre>
+    <hr>
+</body>
+</html>

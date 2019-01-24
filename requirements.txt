@@ -1,0 +1,3 @@
+requests
+fusepy
+sanic-jinja2

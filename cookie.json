@@ -1,0 +1,44 @@
+[
+    {
+        "domain": ".115.com",
+        "name": "115_lang",
+        "path": "/",
+        "secure": false,
+        "value": "zh"
+    },
+    {
+        "domain": ".115.com",
+        "name": "CID",
+        "path": "/",
+        "secure": false,
+        "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+        "domain": ".115.com",
+        "name": "PHPSESSID",
+        "path": "/",
+        "secure": false,
+        "value": "zzzzzzzzzzzzzzzzzzzzzzzzzz"
+    },
+    {
+        "domain": ".115.com",
+        "name": "SEID",
+        "path": "/",
+        "secure": false,
+        "value": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+        "domain": ".115.com",
+        "name": "UID",
+        "path": "/",
+        "secure": false,
+        "value": "000000000_A1_1111111111"
+    },
+    {
+        "domain": "115.com",
+        "name": "acw_tc",
+        "path": "/",
+        "secure": false,
+        "value": "99999999999999999999999999999999999999999999999999999999999999"
+    }
+]
